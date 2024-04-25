@@ -12,7 +12,7 @@ thisdict = {
 print(thisdict)
 
 # Väljastamine kahel viisil
-print(thisdict["Elukoht"]),
+print(thisdict["Elukoht"])
 
 x = thisdict.get("Elukoht")
 
