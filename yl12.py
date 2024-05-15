@@ -1,4 +1,4 @@
-# Tekitan listi
+# Tekitan listi 
 mylist = ["banaan", "õun", "pirn"]
 print(mylist)
 
@@ -13,7 +13,7 @@ print(mylist)
 print("viimane", mylist[-1])
 
 # Muuda ühe elemendi väärtust ja väljasta kogu list
-mylist[2] = "ploom"
+mylist[2] = "ploom" # muudab listis oleva 3.positsioonil oleva elemendi ploomiks
 print(mylist)
 
 # Leian kas listis on element
