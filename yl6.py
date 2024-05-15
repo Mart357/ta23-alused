@@ -11,7 +11,7 @@ a = int(input("Sisesta arv a: "))
 b = int(input("Sisesta arv b: "))
 c = int(input("Sisesta arv c: "))
 
-if a > b and a > c:
+if a > b and a > c:  #võrdlutehted
     print("maksimum on", a)
 
 elif b > c:

@@ -5,7 +5,7 @@ word = word.strip() #esimesed jutum채rgid v천tavad 채ra t체hikud ja teine jutum�
 print(word)
 #String peab vastama tingimustele, et selles on v채hemalt seitse s체mbolit ja et s체mbolite arv on paaritusarvuline.
 length = len(word)
-if length >= 7 and length % 2 == 1: 
+if length >= 7 and length % 2 == 1:    # >=  kas v2iksem v6i kaasaarvatud sama v22rtuseline
     print(length // 2)
     middle = length // 2
     print(word[middle-1: middle+2])
