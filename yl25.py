@@ -12,14 +12,14 @@ thisdict = {
 print(thisdict)
 
 # Väljastamine kahel viisil
-print(thisdict["Elukoht"])
+print(thisdict["location"])
 
-x = thisdict.get("Elukoht")
+x = thisdict.get("location")
 
 print(x)
 
 # Muudan väärtust
-thisdict["Sünniaasta"] = "1996"
+thisdict["birth_date"] = "1996"
 
 print(thisdict)
 
@@ -43,7 +43,7 @@ thisdict["Pikkus"] = "175"
 print(thisdict)
 
 # Eemaldan elemendi
-thisdict.pop("Sünniaasta")
+thisdict.pop("birth_date")
 print(thisdict)
 
 # Kustutan dictonary

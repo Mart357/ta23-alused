@@ -12,7 +12,7 @@ c = float(input("Sisesta külg c: "))
 
 if a < b + c or b < a + c or c < b + a:
     print("on kolmnurk")
-    if
+    
 else:
     print("ei ole kolmnurk")
 
